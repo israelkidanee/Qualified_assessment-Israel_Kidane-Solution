@@ -33,27 +33,6 @@ function getBorrowersForBook(book, accounts) {
   }
   return result;
 }
-// function getTotalBooksCount(books) {
-//   return books.length;
-// }
-// function getTotalAccountsCount(accounts) {
-//   return accounts.length;
-// }
-// function getBooksBorrowedCount(books) {
-//   return books.reduce((count, book) => {
-//     const [recentBorrow] = book.borrows;
-//     if (!recentBorrow.returned) {
-//       return count + 1;
-//     }
-//     return count;
-//   }, 0);
-// }
-// function getMostPopularAuthors(books, authors) {
-//   const authorPopularity = {};
-//   for (const book of books) {
-//     const author = findAuthorById(authors, book)
-//   }
-//   }
 
 module.exports = {
   findAuthorById,
